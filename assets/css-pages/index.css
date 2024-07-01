@@ -1,0 +1,196 @@
+
+/* Add Font Face */
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./../fonts/Poppins-Regular.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+body{
+    background-color: #f0f2f7;
+}
+
+
+/* Header Styling */
+
+.header div{
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #3c5a9a;
+}
+
+.textDiv{
+    width: 65%;
+}
+
+.inpDiv{
+    width: 30%;
+    margin-left: 55px;
+}
+
+.textDiv > p{
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+.inpDiv label{
+    display: inline-block;
+    color: white;
+}
+
+.inpDiv>form{
+    /* line-height: 32px; */
+    padding-top: 15px;
+}
+
+.inpDiv input{
+    margin-right: 8px;
+    padding: 0px 2px;
+    outline: none;
+    border: none;
+}
+
+.inpDiv a{
+    color: #ffffff9b;
+    text-decoration: none;
+    margin-left: 180px;
+}
+
+.inpDiv button{
+    color: white;
+    background-color: #3f68ac;
+    padding: 2px 5px;
+    border: none;
+    box-shadow: 0px 0px 5px rgb(178, 174, 174);
+}
+
+/* Body Section */
+
+.body-section{
+    width: 100%;
+}
+
+.body-section div{
+    display: inline-block;
+}
+
+.textImgDiv{
+    width: 65%;
+    height: 300px;
+    /* border: 1px solid black; */
+}
+
+.textImgDiv > p {
+    padding: 40px 0px 0px 15px;
+    color: #113e6c;
+    font-size: 22px;
+    /* border: 1px solid black; */
+
+}
+
+.textImgDiv > img {
+    padding: 5px 15px;
+    /* border: 1px solid black; */
+
+}
+
+.createactDiv{
+    /* padding: 5px; */
+    width: 34%;
+    /* height: 100vh; */
+    /* border: 1px solid red; */
+}
+
+.createactDiv .heading{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.createactDiv form{
+    margin-top: 12px;
+}
+.createactDiv form .duoInp{
+    width: 185px;
+    padding: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #9b9b8d;
+    border-radius: 4px;
+    outline: none;
+}
+
+.createactDiv form .bottomDuo{
+    width: 385px;
+    padding: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #9b9b8d;
+    border-radius: 4px;
+    outline: none;
+}
+
+.createactDiv input:focus{
+    border: 2px solid red;
+}
+
+.bdayPara{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#date{
+    padding: 2px 6px;
+}
+#month{
+    padding: 2px 8px;
+}
+#year{
+    padding: 2px 8px;
+}
+
+.parentDrop div{
+    display: inline;
+}
+
+.parentDrop{
+    margin-bottom: 15px;
+}
+
+.spanii{
+    width: 5px;
+    height: 20px;
+    margin-left: 10px;
+    font-size: 8px;
+}
+
+.termsPara{
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+
+.redioBtn input{
+    margin-left: 7px;
+    margin-bottom: 10px;
+}
+
+.createactDiv button{
+    background-color: #5c9449;
+    color: white;
+    padding: 8px 40px;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+}
