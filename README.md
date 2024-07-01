@@ -1,1 +1,1 @@
-Netlify : <br/> https://facebook-old-login-page-byom.netlify.app/
+Netlify : <br/> https://facebook-old-login-page.netlify.app/
