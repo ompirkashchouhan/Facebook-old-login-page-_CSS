@@ -49,7 +49,6 @@ body{
 }
 
 .inpDiv>form{
-    /* line-height: 32px; */
     padding-top: 15px;
 }
 
@@ -75,6 +74,12 @@ body{
     border-radius: 2px;
     font-weight: bold;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.inpDiv button:hover{
+    background-color: white;
+    color: blue;
 }
 
 
@@ -83,7 +88,6 @@ body{
 
 .body-section{
     width: 100%;
-    /* border: px solid red; */
     display: flex;
 }
 
@@ -96,14 +100,10 @@ body{
     padding: 40px 0px 0px 15px;
     color: #113e6c;
     font-size: 22px;
-    /* border: 1px solid black; */
-
 }
 
 .textImgDiv > img {
     padding: 5px 15px;
-    /* border: 1px solid black; */
-
 }
 
 .createactDiv{
@@ -156,12 +156,7 @@ body{
     padding: 2px 8px;
 }
 
-/* .parentDrop div{
-    display: inline;
-} */
-
 .parentDrop{
-    margin-bottom: 15px;
     display: flex;
     flex-direction: row;
 }
@@ -170,8 +165,11 @@ body{
     justify-content: space-around;
 }
 
+.dropdowns{
+    margin-bottom: 15px;
+}
+
 .divSpan{
-    /* border: 1px solid black; */
     font-size: 10px;
     width: 150px;
     height: 35px;
@@ -179,7 +177,6 @@ body{
 }
 
 .divSpan span{
-    /* margin-left: 10px; */
     text-align: left;
     color: #3c5a9a;
 }
@@ -189,8 +186,16 @@ body{
     margin-bottom: 15px;
 }
 
+.termsPara>a{
+    text-decoration: none;
+    color: blue;
+}
+
 .redioBtn input{
     margin-left: 7px;
+}
+
+.redioBtn{
     margin-bottom: 10px;
 }
 
@@ -202,4 +207,12 @@ body{
     font-size: 15px;
     border: none;
     border-radius: 4px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.createactDiv>form>button:hover{
+    background-color: white;
+    color: #5c9449;
+    border: 1px solid #9b9b8d;
 }
